@@ -27,7 +27,7 @@ const handleCharSelect = (e) => {
 
     return (
         <div>
-            <h1>Create A Character</h1>
+            <h1 style={{textAlign: 'center'}}>Create A Character</h1>
             <div className="char-select-container">
                 <div>
                 <input type={'text'} className="char-name" placeholder='Name your Character'/> <br />
@@ -42,7 +42,7 @@ const handleCharSelect = (e) => {
                 </select>
                 </div>
                 <div>
-                 <img src={selectedCharImg} className="selected-char-img"/>
+                 <img src={selectedCharImg} alt='' className="selected-char-img"/>
                 </div>
             </div>
         </div>
